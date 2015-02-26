@@ -1,0 +1,59 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html ng-app="myapp">
+  <head>
+
+    <title> USC Elections </title>
+    <!-- Basic Angular App -->
+    <script src="app.js"></script>
+
+    <!-- Controllers -->
+    <script src="controllers/mainController.js"></script> 
+
+    <!-- Styles -->
+    <link rel='stylesheet' href='styles/style.css'>
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/one-page-wonder.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Ugly Metadata -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+  </head>
+
+  <body>
+
+
+    <hr class="featurette-divider">
+
+    <!-- Footer -->
+    <footer>
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Website Built By Ryan Holmes</p>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+  <!-- /.container -->
+
+</body>
+
+
+
+  
+
+
+
+    <!-- this is where content will be injected -->
+    <div class="page {{ pageClass }}" ng-view ></div>
+</body>
+
+
+</html>
